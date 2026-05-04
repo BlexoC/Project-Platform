@@ -17,7 +17,7 @@ function ProjectList({ projects, onDelete }) {
     <div className="project-list">
       <SearchBar
         query={query}
-        onChange={(e) => setQuery(e.target.value)}
+        onChange={(event) => setQuery(event.target.value)}
       />
       {filteredProjects.map((project) => (
         <ProjectItem key={project.id} project={project} onDelete={onDelete} />

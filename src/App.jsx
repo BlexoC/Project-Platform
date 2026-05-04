@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import AddProjectForm from './assets/components/AddProjectForm'
-import ProjectList from './assets/components/ProjectList'
+import AddProjectForm from './components/AddProjectForm'
+import ProjectList from './components/ProjectList'
 import './App.css'
 
 function App() {
