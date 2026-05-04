@@ -182,3 +182,125 @@
     border-right-color: var(--border);
   }
 }
+.project-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin: 12px 0;
+  background-color: peru;
+  border-radius: 29px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  color: red;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 12px;
+}
+
+.search{
+  background-color: palegoldenrod;
+  display: grid;
+  border: none;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+.search input{
+  background-color: palegreen;
+  border: none;
+  color: lightcoral;
+  display: grid;
+  border: none;
+  align-items: center;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+
+.project-name{
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+
+
+.project-description {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  width: 50%;
+  border: none;
+  margin: auto;
+}
+
+.project-description label{
+  display: flex;
+  text-align: center;
+}
+
+.add-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: palegreen;
+  color: tomato;
+  border: none;
+  padding: 12px;
+  margin: auto;
+  border-radius: 29px;
+  cursor: pointer;
+
+}
+
+.project-form {
+  padding: auto;
+  margin: auto;
+  display: grid;
+  gap: 12px;
+  background-color: darkolivegreen;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.project-space{
+  display: grid;
+  margin: auto;
+  align-items: center;
+  gap: 12px;
+  background-color: palegoldenrod;
+  border: none;
+  border-radius: 10px;
+  ;
+}
+
+
+
+.project-des{
+  display: grid;
+  gap: 12px;
+  background-color: palegoldenrod;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px;
+}
+
+.project-list{
+  display: grid;
+  gap: 12px;
+  background-color: palegoldenrod;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px;
+}
+
+.app-section{
+  background-color: red;
+  border-radius: 20px;
+}

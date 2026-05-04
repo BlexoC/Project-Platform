@@ -1,6 +1,6 @@
 function SearchBar({ query, onChange }) {
   return (
-    <div>
+    <div className="search">
       <input
         type="text"
         placeholder="Search projects..."

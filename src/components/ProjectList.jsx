@@ -16,6 +16,7 @@ function ProjectList({ projects, onDelete }) {
 
     <div className="project-list">
       <SearchBar
+        className ="search"
         query={query}
         onChange={(event) => setQuery(event.target.value)}
       />

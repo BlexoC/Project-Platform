@@ -3,6 +3,7 @@ import AddProjectForm from './components/AddProjectForm'
 import ProjectList from './components/ProjectList'
 import './App.css'
 
+
 function App() {
   const [projects, setProjects] = useState([
     { id: 1, name: "Project 1", description: "Description " },
@@ -19,7 +20,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className='app-section'>
       <h1>Project Platform</h1>
       <AddProjectForm onAdd={handleAddProject} />
       <ProjectList projects={projects} onDelete={handleDeleteProject} />
